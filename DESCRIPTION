@@ -1,0 +1,22 @@
+Package: maggieliu545ba2
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Maggie",
+           family = "Liu",
+           role = c("aut", "cre"),
+           email = "yitong.liu@stat.ubc.ca")
+Description: 
+    This package provides a function that plots a histogram 
+    of a column from a specified dataset, and a smooth density 
+    curve overlayed on the histogram. The function allows for 
+    customizable parameters for visualization.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: magrittr, ggplot2, dplyr, rlang, tidyverse
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
