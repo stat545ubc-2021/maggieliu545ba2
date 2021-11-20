@@ -1,4 +1,4 @@
-#' @title Plot histogram and smooth density curve
+#' Plot histogram and smooth density curve
 #'
 #' @description
 #' \code{plot_hist_with_density} uses dplyr to plot a histogram of a
