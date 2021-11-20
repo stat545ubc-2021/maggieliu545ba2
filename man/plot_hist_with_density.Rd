@@ -72,8 +72,6 @@ custom parameters to adjust the colours of the plot, bin size, and
 alpha transparency.
 }
 \examples{
-# In these examples, we will use the cancer_sample dataset
-# provided by the datateachr package.
 
 # Using default parameters
 (plot_hist_with_density(

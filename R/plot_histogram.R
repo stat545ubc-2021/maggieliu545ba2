@@ -8,6 +8,7 @@
 #' alpha transparency.
 #'
 #' @import ggplot2
+#' @import datateachr
 #' @importFrom magrittr %>%
 #' @importFrom dplyr across everything filter select summarise
 #'
@@ -46,8 +47,6 @@
 #' @return An image of the plot containing the histogram and density curve
 #'
 #' @examples
-#' # In these examples, we will use the cancer_sample dataset
-#' # provided by the datateachr package.
 #'
 #' # Using default parameters
 #' (plot_hist_with_density(

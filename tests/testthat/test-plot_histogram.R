@@ -1,3 +1,6 @@
+library(datateachr)
+library(tidyverse)
+
 test1_plot <- plot_hist_with_density(
   data=cancer_sample,
   column=area_mean,

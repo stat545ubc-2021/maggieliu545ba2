@@ -14,26 +14,21 @@ parameters for visualization.
 
 ## Installation
 
-You can install the released version of maggieliu545ba2 from
-[CRAN](https://CRAN.R-project.org) with:
+You can install `maggieliu545ba2` using
 
-``` r
-install.packages("maggieliu545ba2")
-```
+    devtools::install_github("stat545ubc-2021/maggieliu545ba2")
 
-And the development version from [GitHub](https://github.com/) with:
+and load the package with
 
-``` r
-# install.packages("devtools")
-devtools::install_github("stat545ubc-2021/maggieliu545ba2")
-```
+    library("maggieliu545ba2")
 
 ## Example
 
 Below is an example of using the function `plot_hist_with_density`:
 
 ``` r
-(maggieliu545ba2::plot_hist_with_density(
+library(maggieliu545ba2)
+(plot_hist_with_density(
   data=iris,
   column=Sepal.Length,
   xlab="Sepal Length",
